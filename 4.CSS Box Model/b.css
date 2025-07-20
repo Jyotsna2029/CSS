@@ -1,0 +1,25 @@
+.card{
+    background-color: aqua;
+    color: darkgreen;
+    border: 5px solid;
+    padding: 10px;
+    margin: 20px;
+    width: 30vw;
+    height: 15vw;
+    text-align: center;
+    margin: 20px 20px 20px 35vw; /*top right bottom left */
+}
+h1,h2{
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+}
+.card:hover h2{
+    color: plum;
+    background-color: purple;
+}
+div:hover {
+    background-color: orange;
+    transform: scale(1.2);
+}
