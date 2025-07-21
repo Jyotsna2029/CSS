@@ -1,0 +1,45 @@
+/* *{
+    margin: 0;
+
+} */
+.container{
+    background-color: aqua;
+    margin-top: 150px;
+    position: relative;
+    height: 1000px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+#first{
+    background-color: red;
+    position: relative;
+    top: 30px;
+    left:30px;
+    
+}
+#second{
+    background-color: blue;
+    position: fixed;
+    top:30px;
+    right: 500px;
+}
+#third{
+    background-color: rgb(22, 178, 22);
+    position: absolute;
+    top: 130px;  /*with respect to its parent if it has position except static till viewpport*/
+    right: 200px;
+}
+#fourth{
+    background-color: yellow;
+    /* default static position */
+    position: sticky;
+    top:20px;
+    left:20px;
+}
+.container2{
+    height: 500px;
+    background-color: burlywood;
+}

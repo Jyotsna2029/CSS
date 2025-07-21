@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: aqua;
+    position: fixed;
+    width: 100vw;
+
+}
+
+main{
+    padding-top:45px;
+}
