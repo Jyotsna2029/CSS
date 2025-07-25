@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(233, 236, 236);
+}
+.card1{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box{
+    display: inline-block;
+}
+.image{
+    width: 263px;
+    height: auto ;
+    border-radius: 10px; 
+    margin: 10px;
+}
+.image_box{
+    position: relative;
+}
+.restaurant{
+    position: relative;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+.restaurant_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.rating{
+    background-color: rgb(3, 100, 3);
+    color: white;
+    height: 15px;
+    padding:5px;
+    border-radius: 7px;
+    position: absolute;
+    right: 5px;
+}
+
+.cuisine_and_rupee, .time_and_distance{
+    line-height: 20px;
+    position: relative;  
+    /* agar position nahi hogi toh .rupee mein position viewport ke hisaab se ho jaayegi instead of parent */
+}
+.rupee , .distance{
+    position: absolute;
+    right: 5px;
+}
+.card1:hover{
+    background-color: white;
+    transform: scale(1.02);
+}
+.cuisine, .time , .rupee{
+    font-size: 15px;
+    color: rgb(105, 105, 105);
+}
+.distance{
+    font-weight: bold;
+    font-size: 10px;
+}
+.off{
+    background-color: rgba(255, 0, 0, 0.4);
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 9px;
+}
+
+.brand, .search, .login, .signup{
+    display: inline-block;
+}
+.first{
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.brand{
+    color: black;
+    font-size: 30px;
+}
+.search{
+    margin-left: 80px;
+}
+.searching{
+    width: 300px;
+    position: relative;
+    bottom: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color:  rgb(233, 236, 236);
+}
+.login{
+    margin-left: 100px;
+    position: relative;
+    bottom: 5px;
+}
+.signup{
+    position: relative;
+    bottom: 5px;    
+}
+button{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(233, 236, 236);
+    border: 0;
+    font-size: large;
+    color: grey;
+}
+.dineout, .delivery, .nightlife{
+    display: inline-block;
+    margin-right: 70px;
+}
+img{
+    height: 30px;
+    width: 30px;
+}
+.dineout{
+    margin-left: 200px;
+}
+.head_logos{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.third{
+    background-color: aliceblue;
+    height: 450px;
+    display: inline-block;
+}
+.second{
+    background-color: rgb(233, 236, 236);
+    padding-bottom: 10px;
+    padding-top: 5px;
+    position: sticky;
+    top: 0; /* Required for sticky to activate */
+    z-index: 100;
+}
+
+.TrendingSpot{
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.text-overlay{
+    position: relative;
+}
+.para1{
+    position: absolute;
+    color: white;
+    bottom: 60px;
+    left: 14px;
+}
+.Place{
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 14px;
+}
+.collection_heading{
+    margin-left: 15px;
+}
+.Collection_img{
+    display: inline;
+}
