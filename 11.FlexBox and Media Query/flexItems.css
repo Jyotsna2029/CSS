@@ -1,0 +1,36 @@
+.container{
+    height: 700px;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+}
+.box{
+    width: 100px;
+    height: 150px;
+    border: 2px solid black;
+
+}
+.box1{
+    background-color: red;
+    flex-basis: 300px;
+}
+.box2{
+    background-color: blue;
+    flex-shrink: 2;
+    align-self: flex-end;
+    /* flex-grow: 1; */
+}
+.box3{
+    background-color:  green;
+    flex-grow: 3;  
+    /* order: -1; it will be at the first place */
+}
+.box4{
+    background-color: orange;
+    /* flex-shrink:2 ; */
+    align-self:flex-start;
+}
+.box5{
+    background-color: magenta;
+    flex: 2 3 200px;
+}
