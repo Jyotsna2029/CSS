@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(214,46,46);
+    padding: 1rem;
+    color: white;
+    align-items: baseline;
+}
+.right button{
+    margin-left: .5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(215,46,46);
+    color: white;
+    cursor: pointer;
+    padding: 1.5rem;
+}
+.search{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content:center;
+    background-color: rgb(183, 182, 182);
+    padding-bottom: 1rem;
+
+}
+.searching{
+    width: 400px;
+    max-width: 60%;
+    font-size: 1rem;
+}
+.search > button{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    background-color: rgb(215,46,46);
+    color: white;
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./mover.jpg);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.hero h2{
+   color: white;
+   font-size: 2rem;
+   background-color: black;
+
+}
+.hero >button{
+    background-color: rgb(215,46,46);
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.mover{
+    text-align: center;
+    padding: 1rem;
+}
+.mover > h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.images{
+    height: 30rem;
+    width: 20rem;
+
+}
+.movie{
+    display: flex;
+    overflow: scroll;
+}
+
+.card{
+    border: 0.5rem solid #cac7c7;
+    background-color: #cac7c7;
+    text-align: center;
+    margin-left: 1rem;
+    border-radius: 5px;
+    
+}
+.card > h3{
+    font-size: 2rem;
+}
+
+.bot{
+    margin-top: 2rem;
+    text-align: center;
+}
+.bot > img{
+    max-width: 80%;
+}
+
+
+@media(max-width: 650px){
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+    }
+    .movie{
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .card>img{
+       height: 30rem;
+       width: 20rem;
+
+    }
+}

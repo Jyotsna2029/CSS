@@ -1,0 +1,25 @@
+.container{
+    background-color: blue;
+    display: flex;
+
+}
+.box{
+    height: 300px;
+    width: 300px;
+    color: red;
+    margin: 30px;
+    background-color: aqua;
+}
+/* phone */
+@media(max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+}
+/* tablet */
+@media(min-width:601px) and (max-width:900px){
+        .container{
+        background-color: orange;
+        
+    }
+}
