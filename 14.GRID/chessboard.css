@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+}
+.board{
+    height: 50vw;
+    width: 50vw;
+    background-color: rgba(84, 2, 2, 0.719);
+    display: grid;
+    grid-template-columns: repeat(8,1fr); /*1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr*/
+    /* grid-template-rows: repeat(8,1fr); */
+    gap:0;
+}
+
+.white{
+    background-color: white
+}
+.black{
+    background-color: black;
+}

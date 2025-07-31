@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    gap: 1rem;
+    background-color: rgb(115, 0, 0);
+    padding: 4rem;
+    display: grid;
+    justify-content: center;
+    /* grid-template-columns: repeat(4,1fr); */
+    /* grid-template-columns: minmax(100px,200px) minmax(100px,200px) minmax(100px,200px) minmax(100px,200px); */
+    grid-template-columns: repeat(auto-fit,minmax(100px,200px));
+}
+
+.box{
+    background: yellowgreen;
+    font-size: 2rem;
+    color: black;
+}
